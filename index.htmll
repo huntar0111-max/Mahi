@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+<title>MAHI Coin</title>
+
+<style>
+:root{
+  --main:#4f6bff;
+  --bg:#05070f;
+  --card:#0d1224;
+  --text:#e6e9ff;
+  --muted:#9aa3ff;
+}
+
+*{box-sizing:border-box;}
+
+body{
+  margin:0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: radial-gradient(circle at top, #10163a, var(--bg));
+  color:var(--text);
+  overflow-x:hidden;
+}
+
+/* ANIMATION */
+@keyframes glow{
+  0%{box-shadow:0 0 15px rgba(79,107,255,0.2);}
+  50%{box-shadow:0 0 35px rgba(79,107,255,0.45);}
+  100%{box-shadow:0 0 15px rgba(79,107,255,0.2);}
+}
+
+/* HERO */
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:40px 20px;
+}
+
+.hero-box{
+  max-width:900px;
+  padding:60px 30px;
+  background:linear-gradient(145deg,#0f1635,#080c1e);
+  border-radius:20px;
+  animation:glow 6s infinite;
+}
+
+.hero h1{
+  font-size:56px;
+  letter-spacing:6px;
+  margin-bottom:15px;
+}
+
+.hero p{
+  font-size:20px;
+  color:var(--muted);
+}
+
+/* SECTION */
+.section{
+  max-width:1100px;
+  margin:auto;
+  padding:80px 20px;
+}
+
+h2{
+  font-size:34px;
+  margin-bottom:25px;
+  border-left:5px solid var(--main);
+  padding-left:15px;
+}
+
+.card{
+  background:var(--card);
+  padding:30px;
+  border-radius:16px;
+  margin-bottom:30px;
+  box-shadow:0 0 30px rgba(0,0,0,0.4);
+}
+
+ul{padding-left:20px;}
+li{margin-bottom:10px;}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+}
+
+.stat{
+  background:#11183b;
+  padding:25px;
+  border-radius:14px;
+  text-align:center;
+}
+
+/* LINKS */
+a{
+  color:var(--main);
+  text-decoration:none;
+  font-weight:600;
+}
+a:hover{text-decoration:underline;}
+
+footer{
+  background:#03050c;
+  padding:50px 20px;
+  text-align:center;
+  color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-box">
+    <h1>MAHI</h1>
+    <p>
+      I am creating MAHI to be a coin that lives on,<br>
+      whether I am here or not.
+    </p>
+  </div>
+</section>
+
+<!-- GENESIS -->
+<section class="section">
+  <h2>Genesis Vision</h2>
+  <div class="card">
+    <p>
+      MAHI was not created for hype, shortcuts, or fast profit.
+      It was created with a single belief:
+      <strong>a coin should survive beyond its creator.</strong><br><br>
+      MAHI follows the philosophy of Bitcoin —
+      decentralization, transparency, and long-term existence.
+    </p>
+  </div>
+</section>
+
+<!-- PRINCIPLES -->
+<section class="section">
+  <h2>Core Principles</h2>
+  <div class="card">
+    <ul>
+      <li>No guaranteed profits</li>
+      <li>No hidden control</li>
+      <li>Open-source & transparent</li>
+      <li>Community over founder</li>
+      <li>Slow growth, long life</li>
+    </ul>
+  </div>
+</section>
+
+<!-- TOKENOMICS -->
+<section class="section">
+  <h2>Tokenomics</h2>
+  <div class="grid">
+    <div class="stat">
+      <h3>Total Supply</h3>
+      <p>1,000,000,000 MAHI</p>
+    </div>
+    <div class="stat">
+      <h3>Chain</h3>
+      <p>Solana (Token Phase)</p>
+    </div>
+    <div class="stat">
+      <h3>Community</h3>
+      <p>Major Allocation</p>
+    </div>
+    <div class="stat">
+      <h3>Founder</h3>
+      <p>Limited & Locked</p>
+    </div>
+  </div>
+</section>
+
+<!-- TRANSPARENCY -->
+<section class="section">
+  <h2>Transparency</h2>
+  <div class="card">
+    <p>
+      MAHI makes no promises of returns.<br>
+      All development, decisions, and future plans
+      are public and community-driven.
+    </p>
+    <p>
+      Token Address: <em>(add after launch)</em><br>
+      Explorer: <em>(Solscan link)</em>
+    </p>
+  </div>
+</section>
+
+<!-- COMMUNITY -->
+<section class="section">
+  <h2>Community</h2>
+  <div class="card">
+    <p>
+      MAHI is built by believers, not speculators.
+    </p>
+    <p>
+      🔗 <a href="https://github.com/yourusername/MAHI">GitHub</a><br>
+      🔗 <a href="https://t.me/MAHICoin">Telegram</a><br>
+      🔗 <a href="https://twitter.com/MAHICoin">Twitter</a>
+    </p>
+  </div>
+</section>
+
+<footer>
+  © MAHI Coin • Decentralized • Transparent • Long Living
+</footer>
+
+</body>
+</html>
