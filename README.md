@@ -18,8 +18,11 @@
 ![Mahi Coin Logo]![image](https://github.com/user-attachments/assets/d4d5b5a5-dc54-4eb2-9d73-3675a69f038b)
 /assets/images
 
-href="assets/docs/MAHI_Coin_Whitepaper%20.pdf" target="_blank">
+<a href="assets/docs/MAHI_Coin_Whitepaper.pdf" target="_blank">
   <img src="assets/images/logo.png" width="150">
+</a>
+
+
 
   
 
