@@ -5,7 +5,7 @@
 **Token Info:**  
 - Name: MAHI  
 - Symbol: MAHI  
-- Blockchain (Token Phase): Solana  
+- Blockchain (Coin Phase): Solana  
 - Total Supply: 1,000,000,000 MAHI  
 
 **Core Principles:**  
