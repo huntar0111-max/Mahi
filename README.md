@@ -17,3 +17,9 @@
 **Roadmap:** See docs/roadmap.md
 ![Mahi Coin Logo]![image](https://github.com/user-attachments/assets/d4d5b5a5-dc54-4eb2-9d73-3675a69f038b)
 /assets/images
+
+
+<p align="center">
+  <a href="MAHI_Coin_Whitepaper" target="_blank">
+
+  
