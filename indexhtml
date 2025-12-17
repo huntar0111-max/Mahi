@@ -6,6 +6,9 @@
 <title>MAHI Coin</title>
   
 <a href="MAHI_Coin_Whitepaper.pdf" class="btn">Whitepaper</a>
+<a href="MAHI_Coin_Whitepaper.pdf" class="btn" target="_blank">
+  Whitepaper
+</a>
 
 <style>
 :root{
