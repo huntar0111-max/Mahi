@@ -15,4 +15,5 @@
 4. Community-driven  
 
 **Roadmap:** See docs/roadmap.md
-![Mahi Coin Logo](path/to/logo.png)
+![Mahi Coin Logo](![image](https://github.com/user-attachments/assets/ae5a3fc5-e130-4e63-9b6a-e9aef1f4210a)
+)
